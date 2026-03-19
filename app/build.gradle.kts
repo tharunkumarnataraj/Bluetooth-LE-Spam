@@ -9,12 +9,12 @@ val app_name = "Bluetooth LE Spam"
 
 android {
     namespace "com.example.blespam"
-    compileSdk 34
+    compileSdk = 34
 
     defaultConfig {
-        applicationId "com.example.blespam"
-        minSdk 21
-        targetSdk 34
+        applicationId = "com.example.blespam"
+        minSdk = 21
+        targetSdk = 34
     }
     signingConfigs {
         create("release") {
