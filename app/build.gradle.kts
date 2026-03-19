@@ -8,17 +8,13 @@ plugins {
 val app_name = "Bluetooth LE Spam"
 
 android {
-    namespace = "de.simon.dankelmann.bluetoothlespam"
-    compileSdk = 34
+    namespace "com.example.blespam"
+    compileSdk 34
 
     defaultConfig {
-        applicationId = "de.simon.dankelmann.bluetoothlespam"
-        minSdk = 26
-        targetSdk = 34
-        versionCode = 2
-        versionName = "1.0.8"
-
-        //testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        applicationId "com.example.blespam"
+        minSdk 21
+        targetSdk 34
     }
     signingConfigs {
         create("release") {
